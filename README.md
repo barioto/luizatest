@@ -22,12 +22,15 @@ Install requirements via ``pip``:
 
 
 Criar tabelas do banco de dados:
+
     ./manage.py migrate
 
 
 Rodar o projeto:
+
     ./manage.py runserver 
 
 
 Criar um superuser:
+
 	./manage.py createsuperuser
