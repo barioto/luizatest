@@ -11,23 +11,23 @@ Virtualenv
 Configuração
 ------------
 
-Criar virtualenv: ::
+Criar virtualenv:
 
     virtualenvwapper ou pyenv virtualenv
 
 
-Install requirements via ``pip``: ::
+Install requirements via ``pip``:
 
     pip install requirements.txt
 
 
-Criar tabelas do banco de dados: ::
+Criar tabelas do banco de dados:
     ./manage.py migrate
 
 
-Rodar o projeto: ::
+Rodar o projeto:
     ./manage.py runserver 
 
 
-Criar um superuser: ::
+Criar um superuser:
 	./manage.py createsuperuser
